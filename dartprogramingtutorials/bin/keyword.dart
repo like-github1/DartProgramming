@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 void main() {
   //we declare variable as a constant or final if you don't want to chane it's value
