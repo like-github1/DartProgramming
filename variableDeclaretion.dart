@@ -23,4 +23,6 @@ void main() {
   //intiger hex value
   int hexvalue = 0xEDCEEEED;
   double exponet = 1.34e5;
+  print(hexvalue);
+  print(exponet);
 }
