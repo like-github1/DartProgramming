@@ -13,3 +13,4 @@
 //List(array)
 // Map, Runes and Symbols..the are 8 data types in dart
 //Number(only int and double there is no flot), string, bolean, map,List,Runes and symbols
+//Note all Data Types are Object in Dart thefore it's initial value is null unless we initialize it
