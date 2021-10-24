@@ -18,12 +18,11 @@ void main(){
   //to perform specific function
 
   //function with required parameters
+ area(12,5);
 
-int finadAre(int length, int width){
-  return lengrh*width;
-}
-void int area(int length,int width){
-  print(length*width);
-}
 
+}
+ int area(int width, int height){
+  int area= 2*(width*height);
+  print("the perimeter is $area");
 }
