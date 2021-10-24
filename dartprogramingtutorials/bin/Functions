@@ -1,0 +1,29 @@
+void main(){
+  //functions 
+  //methods
+  //parameters
+  //two types of parameter.
+  //1: Required parameter and
+  //2:optional pareamter
+  //introduction to function
+  //Syntax and properties of function
+  //Function as Expression
+  //Diffrent types of function parameters
+  //required and optional parameters
+  //under optional parametes we have three type
+  //1 optional positional parameters
+  //2,optional Named Parametes
+  //optionalDefault paremeters
+  //function is s collection of statemets group together
+  //to perform specific function
+
+  //function with required parameters
+
+int finadAre(int length, int width){
+  return lengrh*width;
+}
+void int area(int length,int width){
+  print(length*width);
+}
+
+}
