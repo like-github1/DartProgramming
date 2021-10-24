@@ -7,7 +7,7 @@ void main() {
   //ways to declare a variable as Double
 
   double number = 22.3;
-  var numbers = 22.3;// it automatically infered as a double by the compiler.
+  var numbers = 22.3; // it automatically infered as a double by the compiler.
 
   //there are two way to Declare variable as intiger
 
@@ -20,7 +20,7 @@ void main() {
   var isvalide = true; //it is infered as boolean automatically by compiler
 
   //Note if you Declare a variable as Var, it's datatype is known after intialize it
-  
-
-
+  //intiger hex value
+  int hexvalue = 0xEDCEEEED;
+  double exponet = 1.34e5;
 }
