@@ -69,4 +69,12 @@ void main() {
       print('you have no age');
       break;
   }
+
+//Summery we can learn
+// if else statement
+//conditionalstatement
+//condition? exp1:exp2;
+//exp1??exp2;
+//Switch case statement
+
 }
