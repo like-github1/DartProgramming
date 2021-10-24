@@ -27,4 +27,12 @@ void main() {
 
   //String interpolation
   print("my name is $Myname");
+  //to return the length of string
+//exmaples'
+  String namee = "solomon";
+
+  print('the number of character in the name solomon is ${namee.length}');
+  int a = 10;
+  int b = 12;
+  print('the length is ${a + b}');
 }
