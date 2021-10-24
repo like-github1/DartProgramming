@@ -1,10 +1,13 @@
 void main() {
   //continue and Beak keyword in dart
 
-  for (int i = 0; i < 10; i++) {
-    if (i == 5) {
-      break;
+  outerloop:for (int i = 0; i < 10; i++) {
+    for (int j = 0; j < 10; j++) {
+     
+      if (i == 2 && j == 2) {
+        continue ;
+      }
+       print("$i,$j");
     }
-    print(i);
   }
 }
