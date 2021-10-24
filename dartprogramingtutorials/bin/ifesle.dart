@@ -56,25 +56,6 @@ void main() {
   //Switch_Case_Statement
 //you can you only string and intiger for switch case
 
-  int ages = 34;
-
-  switch (ages) {
-    case 12:
-      print('your age is too small');
-      break;
-    case 50:
-      print('your age is 50');
-      break;
-    default:
-      print('you have no age');
-      break;
-  }
-
-//Summery we can learn
-// if else statement
-//conditionalstatement
-//condition? exp1:exp2;
-//exp1??exp2;
-//Switch case statement
+ //Dart Loop and Iterations
 
 }
