@@ -18,9 +18,7 @@ void main() {
   //to perform specific function
 
   //function with required parameters
-  area(2, 3);
-  int getareas = getArea(2, 3);
-  print(getareas)
+  findarea(3, 3);
 }
 
 //function withou
@@ -33,3 +31,8 @@ int getArea(int length, int breadth) {
   int areas = length * breadth;
   return areas;
 }
+
+//shorthand expression of Declaring a functions
+void findarea(int length, int width) =>print("the perimeter is ${2 * (length * width)}");
+int findDistance(int length,int width)=>length*width;// this is a function that returns int value
+//we can not use return keyword here 
