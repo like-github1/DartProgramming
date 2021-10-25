@@ -19,7 +19,8 @@ void main() {
 
   //function with required parameters
   findarea(3, 3);
-  printCity('DELIH', 'Ethiopa','sudan');
+  printCity('DELIH', 'Ethiopa', 'sudan');
+  perimeter(2, 3);
 }
 
 //function withou
@@ -49,3 +50,13 @@ void printCity(String name1, name2, name3) {
   print(name3);
   //both name1,2,3 are required parameter
 }
+
+//function with optional positional parameters
+//function with optional named parameter
+//function with optional Default parameters
+void perimeter(int width, int length, [int? bredith]) {
+  int result = width * length;
+  print('the perimeter is $result');
+  print(bredith);
+}
+
