@@ -1,5 +1,5 @@
-void main(){
-  //functions 
+void main() {
+  //functions
   //methods
   //parameters
   //two types of parameter.
@@ -18,11 +18,18 @@ void main(){
   //to perform specific function
 
   //function with required parameters
- area(12,5);
-
-
+  area(2, 3);
+  int getareas = getArea(2, 3);
+  print(getareas);
 }
- int area(int width, int height){
-  int areas= 2*(width*height);
-  print("the perimeter is $areas");
+
+//function withou
+void area(int length, int width) {
+  double areaogtriangle = 0.5 * (length * width);
+  print(areaogtriangle);
+}
+
+int getArea(int length, int breadth) {
+  int areas = length * breadth;
+  return areas;
 }
