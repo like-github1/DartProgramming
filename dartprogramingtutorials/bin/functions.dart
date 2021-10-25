@@ -19,6 +19,7 @@ void main() {
 
   //function with required parameters
   findarea(3, 3);
+  printCity('DELIH', 'Ethiopa','sudan');
 }
 
 //function withou
@@ -33,6 +34,18 @@ int getArea(int length, int breadth) {
 }
 
 //shorthand expression of Declaring a functions
-void findarea(int length, int width) =>print("the perimeter is ${2 * (length * width)}");
-int findDistance(int length,int width)=>length*width;// this is a function that returns int value
-//we can not use return keyword here 
+void findarea(int length, int width) =>
+    print("the perimeter is ${2 * (length * width)}");
+int findDistance(int length, int width) =>
+    length * width; // this is a function that returns int value
+//we can not use return keyword here
+
+//function paramaeter can be devidedd in to
+//required and optional parameter.
+//1:required parameters
+void printCity(String name1, name2, name3) {
+  print(name1);
+  print(name2);
+  print(name3);
+  //both name1,2,3 are required parameter
+}
