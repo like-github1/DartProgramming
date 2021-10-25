@@ -20,7 +20,7 @@ void main() {
   //function with required parameters
   area(2, 3);
   int getareas = getArea(2, 3);
-  print(getareas);
+  print(getareas)
 }
 
 //function withou
